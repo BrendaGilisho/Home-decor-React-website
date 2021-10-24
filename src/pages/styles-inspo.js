@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 
 const StylesInspo = () => {
     return(
@@ -6,6 +7,7 @@ const StylesInspo = () => {
             <h1>
                 Styles inspo ...
             </h1>
+            < Footer />
         </div>
     );
 }
