@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel  from 'react-elastic-carousel';
+import Footer from '../components/Footer';
+
 
 
 
@@ -15,6 +17,7 @@ const Outdoor = () => {
                 Outdoor...
             </h1>
 
+             < Footer />
 
            
         </div>
