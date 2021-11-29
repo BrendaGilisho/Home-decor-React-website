@@ -1,0 +1,32 @@
+.outdoor{
+    display: flex;
+
+    justify-content: center;
+}
+
+/* .line-before{
+    border-top: 2px solid red;
+
+    width: 100%;
+    margin-top: 10%;
+
+} */
+
+.outdoor-title{
+    outline: black 1px solid;
+    text-align: center;
+    width: 100%;
+
+}
+
+.outdoor-title::before{
+    content: "";
+    border-top: 2px solid black;
+}
+
+/* .line-after{
+    border-top: 2px solid red;
+    width: 100%;
+
+
+} */

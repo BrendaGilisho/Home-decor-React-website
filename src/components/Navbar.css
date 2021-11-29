@@ -1,8 +1,13 @@
 .header-bar {
     border: 0px solid black;
-    margin: 0;
-    background-color: rgba(253, 252, 252, 0.993);
+    background-color: rgba(235, 232, 232, 0.993);
+    
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+    /* margin-bottom: 2%; */
 }
+
 /* 
 @media only screen and (max-width: 1200px) {
     .header-bar {
@@ -79,6 +84,8 @@ h1 {
     text-align: center;
     width: 14.28%;
     order: 1;
+    text-decoration: none;
+
 }
 
 .outdoor {
@@ -86,6 +93,8 @@ h1 {
     text-align: center;
     width: 14.28%;
     order: 2;
+    text-decoration: none;
+
 }
 
 .furniture {
@@ -93,6 +102,8 @@ h1 {
     text-align: center;
     width: 14.28%;
     order: 3;
+    text-decoration: none;
+
 }
 
 .home-decor {
@@ -100,6 +111,8 @@ h1 {
     text-align: center;
     width: 14.28%;
     order: 4;
+    text-decoration: none;
+
 }
 
 .rugs {
@@ -107,6 +120,8 @@ h1 {
     text-align: center;
     width: 14.28%;
     order: 5;
+    text-decoration: none;
+
 }
 
 .lighting {
@@ -114,6 +129,8 @@ h1 {
     text-align: center;
     width: 14.28%;
     order: 6;
+    text-decoration: none;
+
 }
 
 .styles-inspo {
@@ -121,4 +138,6 @@ h1 {
     text-align: center;
     width: 14.28%;
     order: 7;
+    text-decoration: none;
+
 }

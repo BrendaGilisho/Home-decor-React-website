@@ -1,6 +1,6 @@
 .hot-deals{
     outline: 0px solid ;
-    margin-top: 12px;
+    /* margin-top: 12px; */
     margin-bottom: 12px;
 
     padding-left: 70px;
@@ -118,7 +118,8 @@
     outline: 3px solid rgb(248, 246, 246);
     /* margin: 20px; */
     order: 5;
-    width: 100%;
+    width: 55%;
+    height: 55%;
 
 }
 
@@ -137,6 +138,7 @@
     outline: 3px solid rgb(248, 246, 246);
     /* margin: 20px; */
     order: 6;
-    width: 100%;
+    width: 75%;
+    height: 75%;
 
 }

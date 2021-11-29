@@ -1,3 +1,145 @@
-/* .shop-the-look{
+
+.hot-deals{
+    outline: 0px solid ;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+    padding-left: 70px;
+    padding-right: 68px;
+
+    
+}
+
+.hot-deals-title-arrows{
+    display: flex;
+
+}
+
+.hot-deals-title{
+    outline: 0px solid ;
+
     width: 100%;
-} */
+    font-size: 25px;
+    padding-left: 10%;
+
+}
+
+.hot-deals-cards{
+    display: flex;
+
+
+}
+
+
+.product1{
+    outline: 0px solid black;
+    margin: 12px 7px 12px 7px;
+    /* width: 30%;
+    height: 40%; */
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;    
+
+}
+
+.card1{
+    order: 1;
+    width: 20%;
+    height: 70%;
+}
+
+.product2{
+    outline: 0px solid black;
+    margin: 12px 7px 12px 7px;
+    width: 90%;
+    height: 50%;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;    
+
+}
+
+.card2{
+    outline: 3px solid rgb(248, 246, 246);
+    /* margin: 20px; */
+    order: 2;
+    width: 100%;
+
+}
+
+.product3{
+    outline: 0px solid black;
+    margin: 12px 7px 12px 7px;
+    width: 90%;
+    height: 50%;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;    
+
+}
+
+.card3{
+    outline: 3px solid rgb(248, 246, 246);
+    /* margin: 20px; */
+    order: 3;
+    width: 100%;
+
+}
+
+.product4{
+    outline: 0px solid black;
+    margin: 12px 7px 12px 7px;
+    width: 90%;
+    height: 50%;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;    
+
+}
+
+.card4{
+    outline: 3px solid rgb(248, 246, 246);
+    /* margin: 20px; */
+    order: 4;
+    width: 100%;
+
+}
+
+.product5{
+    outline: 0px solid black;
+    margin: 12px 7px 12px 7px;
+    width: 90%;
+    height: 50%;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;    
+
+}
+.card5{
+    outline: 3px solid rgb(248, 246, 246);
+    /* margin: 20px; */
+    order: 5;
+    width: 55%;
+    height: 55%;
+
+}
+
+.product6{
+    outline: 0px solid black;
+    margin: 12px 7px 12px 7px;
+    width: 90%;
+    height: 50%;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;    
+
+}
+
+.card6{
+    outline: 3px solid rgb(248, 246, 246);
+    /* margin: 20px; */
+    order: 6;
+    width: 75%;
+    height: 75%;
+
+}

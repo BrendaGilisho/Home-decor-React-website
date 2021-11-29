@@ -1,28 +1,31 @@
-import React, { useState, useEffect } from 'react';
-
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import React from 'react';
+import './outdoor.css'
 
 import Footer from '../components/Footer';
+import OutdoorCategories from '../components/OutdoorCategories';
 
 
-const Outdoor = (props) => {
-    const [count, setCount] = useState(0);
-
-    const breakPoints = [
-        {width: 1, itemsToShow: 1},
-        {width: 500, itemsToShow: 2},
-        {width: 768, itemsToShow: 3},
-        {width: 1200, itemsToShow: 4}
-    ];
-    
+const Outdoor = () => {
 
     return (
         <div>
-            <h1>
-                Outdoor...
-            </h1>
+            <div className='outdoor'>
+                <div className='line-before'></div>
 
+                <div className='outdoor-title'>
+                    <p>Outdoor Decor</p>
+                </div>
+
+                <div className='line-after'></div>
+
+
+            </div>
+
+
+
+            < OutdoorCategories />
             < Footer />
+
         </div>
     );
 }

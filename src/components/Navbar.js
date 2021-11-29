@@ -1,4 +1,5 @@
 import React from 'react';
+// import Dropdown from 'react-bootstrap/Dropdown';
 import { NavLink, Link } from 'react-router-dom';
 import { FaCommentDots } from 'react-icons/fa';
 import { FaUser } from 'react-icons/fa';
@@ -36,7 +37,21 @@ export default function Navbar() {
 
                 <div className='interactionIcons'>
                     <FaCommentDots className='comments-icon' />
-                    <FaUser className='user-icon' />
+
+                    {/* <Dropdown className='user-icon'>
+                        <Dropdown.Toggle variant='success'>
+                            <FaUser className='user-icon' />
+                            <Dropdown.Menu>
+                                <Dropdown.Item Link to='/sign-up'>Sign Up</Dropdown.Item>
+                                <Dropdown.Item Link to='/login'>Login</Dropdown.Item>
+
+                            </Dropdown.Menu>
+                        </Dropdown.Toggle>
+                    </Dropdown> */}
+                    <Link to='/sign-up'>
+                        <FaUser className='user-icon' />
+                    </Link>
+
                     <FaHeart className='heart-icon' />
 
                     <Link to='/Cart'>
@@ -50,14 +65,14 @@ export default function Navbar() {
                 <NavLink to="/" className='home-nav'>
                     Home
                 </NavLink>
-                <NavLink to="/outdoor" className='outdoor'>
+                <NavLink to="outdoor" className='outdoor'>
                     Outdoor
                 </NavLink>
-                <NavLink to="/furniture" className='furniture'>
+                <NavLink to="furniture" className='furniture'>
                     Furniture
                 </NavLink>
-                <NavLink to="home-decor" className='home-decor'>
-                    Home Decor
+                <NavLink to="holiday-decor" className='home-decor'>
+                    Holiday Decor
                 </NavLink>
                 <NavLink to="rugs" className='rugs'>
                     Rugs

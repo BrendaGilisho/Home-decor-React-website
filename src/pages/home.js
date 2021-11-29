@@ -3,7 +3,6 @@ import './home.css'
 import Banner from '../components/Banner';
 import HotDeals from '../components/HotDeals';
 import Offer from '../components/Offer';
-import SignUp from './sign-up';
 import ShopTheLook from '../components/ShopTheLook';
 import Footer from '../components/Footer';
 
@@ -13,9 +12,8 @@ const Home = () => {
              <Banner /> 
              <HotDeals />
              <Offer />
-            {/* <ShopTheLook />  */}
-             <h1>Shop the look...</h1>
-             {/* < SignUp /> */}
+            <ShopTheLook /> 
+             {/* <h1>Shop the look...</h1> */}
              < Footer />
 
         </div>

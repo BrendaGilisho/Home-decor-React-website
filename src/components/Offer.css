@@ -1,12 +1,11 @@
 .offer-container{
-    margin-bottom: 50px;
-
-    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .offer-img{
 
-    margin-left: 15%;
-    margin-right: 10%px;
+    width: 100%;
     
 }

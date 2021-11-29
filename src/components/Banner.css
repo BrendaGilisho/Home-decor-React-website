@@ -1,20 +1,37 @@
-.banner{
+.banner2{
     display: flex;
     /* outline: thin solid red;  */
-    box-shadow: 10px 20px 50px rgb(158, 169, 216) inset;
+    box-shadow: 5px 10px 50px rgb(241, 155, 84) inset;
 
-    margin-bottom: 50px;
+    margin-bottom: 1%;
+
 }
 
-.banner-img {
-    width: 75%;
-    height: 70%;
+.banner2-img {
+    position: relative;
+    width: 60%;
+    /* height: 20%; */
+    /* text-align: center; */
 
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20%;
+    /* margin-right: 5%; */
+    margin-top: 1%;
+    margin-bottom: 1%;
 
    
+}
+
+.text-on-image{
+    outline: red 2px solid;
+    position: absolute;
+    /* text-align: center; */
+    right: 50%;
+    left: 50%;
+    bottom: 25%;
+    /* display: flex; */
+
+    white-space: nowrap;
+
+    
+
 }

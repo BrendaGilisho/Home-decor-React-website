@@ -38,7 +38,10 @@ export default function HotDeals() {
 
 
             <div className='hot-deals-cards'>
-                <Carousel breakPoints={breakPoints}>
+                <Carousel 
+                    breakPoints={breakPoints}
+                    pagination={false}
+                    >
 
                     <div className='product1'>
 
